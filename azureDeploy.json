@@ -227,7 +227,7 @@
 				"description": "Trust subnet start address"
 			}
 		},
-		"subnet2StartAddress": {
+		"subnet3StartAddress": {
 			"type": "string",
 			"defaultValue": "192.168.4.4",
 			"metadata": {
