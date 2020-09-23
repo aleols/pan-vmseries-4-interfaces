@@ -244,6 +244,7 @@
 		"nicName": "[concat(parameters('vmName'), '-eth')]",
 		"FWPrivateIPAddressUntrust": "[parameters('subnet1StartAddress')]",
 		"FWPrivateIPAddressTrust": "[parameters('subnet2StartAddress')]",
+		"FWPrivateIPAddressDMZ": "[parameters('subnet3StartAddress')]",
 		"publicIPAddressType": "Dynamic",
 		"vnetID": "[resourceId('Microsoft.Network/virtualNetworks',parameters('virtualNetworkName'))]",
 		"nsgname-mgmt": "[concat(parameters('vmName'), '-DefaultNSG')]",
