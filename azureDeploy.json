@@ -134,7 +134,7 @@
 			"metadata": {
 				"artifactsBaseUrl": ""
 			},
-			"defaultValue": "https://raw.githubusercontent.com/aleols/pan-kp-azure-3nic/master"
+			"defaultValue": "https://raw.githubusercontent.com/aleols/pan-vmseries-4-interfaces/master"
 		},
 		"virtualNetworkName": {
 			"type": "string",
